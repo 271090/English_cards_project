@@ -1,0 +1,39 @@
+.header{
+    font-family: ;
+    font-size: ;
+    margin: 10px auto;
+    background-color: pink;
+    color: white;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    
+}
+.header__item:hover{
+    text-decoration: underline;
+    color: rgb(162, 38, 245);
+}
+
+.header__item{
+    color: white; 
+    text-decoration: none;
+    margin: 10px 15px;
+}
+
+
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+.header__logo{
+   text-align: center; 
+}
+.logo{
+    max-width: 25%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    
+}
