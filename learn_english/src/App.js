@@ -1,10 +1,12 @@
 import React from "react";
-import Maket from "./components/maket/maket";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
     <div className="App">
-      <Maket/>
+      <Header/>
+      <Footer/>
     </div>
   );
 }
