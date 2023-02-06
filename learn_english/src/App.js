@@ -1,12 +1,14 @@
 import React from "react";
-import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
+import Maket from "./components/maket/maket";
+import "./components/header/header.css";
+import "./components/footer/footer.css";
+import "./components/maket/maket.css";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Footer/>
+      <Maket/>
     </div>
   );
 }

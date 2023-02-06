@@ -1,23 +1,24 @@
-
-import styles from "../header/header.css";
-
+import logo from "../header/logo 2.png";
 const Header = () => {
   return (
-    <header className={styles.header}>
-      <div className={styles.header__menu}>
+    <header className="header">
+      <div className="header__menu">
         <div className="slogan">
-        <a href="/" className={styles.header__item}>
-            THE LITTLE GENIUS WORKSHOP
+        <a href="/" className="header__item">
+        LEARN ENGLISH EASY
           </a>
         </div>
-        <div className={styles.menu}>
-          <a href="/" className={styles.header__item}>
+        <div className="header__logo">
+          <img src={logo} alt="logo" className="logo" />
+      </div>
+        <div className="menu">
+          <a href="/" className="header__item">
             Home
           </a>
-          <a href="/" className={styles.header__item}>
+          <a href="/" className="header__item">
             Game
           </a>
-          <a href="/" className={styles.header__item}>
+          <a href="/" className="header__item">
             Vocabulary
           </a>
         </div>

@@ -1,0 +1,36 @@
+.card__container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px auto;
+} 
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 55vh;
+    width: 18vw;
+    border-radius: 10px;
+    border: 2;
+    padding: 5px;
+    
+}
+.english{
+    color:#28201E; 
+    font-size:  28px;
+}
+.russian{
+    color:#B38C66; 
+    font-size: 36px;
+}
+.russian:hover{
+    cursor: pointer; 
+}
+.transcription{
+color: rgb(128, 128, 128);
+font-size: 18px;
+}
+
