@@ -12,8 +12,7 @@ function Maket() {
       {
         words.map((word) => 
         <Card english={word.english} transcription={word.transcription}
-        russian={word.russian} 
-        ></Card>)
+        russian={word.russian} tags={word.tags} isSelected={word.isSelected}/>)
       }</div>
       </main>
       <Footer />
