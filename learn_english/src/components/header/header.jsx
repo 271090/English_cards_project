@@ -1,30 +1,19 @@
-import logo from "../header/logo 2.png";
+import logo from "../header/logoforheader-removebg-preview.png";
 const Header = () => {
-  return (
-    <header className="header">
-      <div className="header__menu">
-        <div className="slogan">
-        <a href="/" className="header__item">
-        LEARN ENGLISH EASY
-          </a>
-        </div>
-        <div className="header__logo">
-          <img src={logo} alt="logo" className="logo" />
-      </div>
-        <div className="menu">
-          <a href="/" className="header__item">
-            Home
-          </a>
-          <a href="/" className="header__item">
-            Game
-          </a>
-          <a href="/" className="header__item">
-            Vocabulary
-          </a>
-        </div>
-      </div>
-    </header>
-  );
+return (
+<header className="header">
+  <div className="header__logo">
+    <img src={logo} alt="logo" className="logo" />
+  </div>
+  <nav className="menu">
+    <ul className="menuList">
+      <li className="menuItem">Home</li>
+      <li className="menuItem">GAME</li>
+      <li className="menuItem">VOCABULARY</li>
+    </ul>
+  </nav>
+</header>
+);
 };
 
 export default Header;

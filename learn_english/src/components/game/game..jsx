@@ -2,17 +2,18 @@ import Header from "../header/header";
 import Footer from "../footer/footer";
 import words from "../utils/words";
 import Card from "../card/card";
+import "../game/game.css";
 
-function Maket() {
+function Game() {
   return (
     <div className="App__container">
       <Header />
       <main className="container__main">
         <div className="cards_conteiner">
       {
-        words.map((word) => 
-        <Card english={word.english} transcription={word.transcription}
-        russian={word.russian} tags={word.tags} isSelected={word.isSelected}/>)
+        words.map((word, i) => 
+        <Card key={i} english={word.english} transcription={word.transcription}
+        russian={word.russian} isSelected={word.isSelected}/>)
       }</div>
       </main>
       <Footer />
@@ -20,4 +21,4 @@ function Maket() {
   );
 }
 
-export default Maket;
+export default Game;

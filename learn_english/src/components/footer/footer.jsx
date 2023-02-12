@@ -2,9 +2,8 @@
 const Footer = () => {
   return (
     <div className="footer__container">
-      <div className="footer">
         <div className="footer__contact">
-          <p>LitleEnglishCards helps you to learn new words easely</p>
+          <p className="footer_text">English Cards - helps you to learn new words easely</p>
           <p className="contact__item">
             &copy;
             <a
@@ -13,12 +12,11 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="contact__link"
             >
-              2023 Olga Malysheva
+              2023 OLGA MALYSHEVA
             </a>
-          </p>
+          </p> 
         </div>
       </div>
-    </div>
   );
 };
 

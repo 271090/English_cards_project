@@ -1,0 +1,26 @@
+.container__main {
+    background: #e5acf9;
+      border-radius: 0px;
+    }
+    
+    .cards_conteiner {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 2%;
+        text-align: center;
+    }
+    
+    .card__list {
+      margin-top: 10px;
+    }
+    
+    .card__menu {
+      margin-top: 10px;display: grid;
+      grid-template-columns: 2fr 2fr 2fr;
+      background-color: #f6d365;
+    }
+    
+    .card__text {
+      color:#28201E; 
+      font-size:  28px;
+    }
