@@ -19,9 +19,9 @@ return (
     <button onClick={handleTransleiteBtn} className={`check_btn ${classBtnTransleite}`}>{pressed ? (
       <p className="russian">{russian}</p>
       ) : (
-      "ПРОВЕРИТЬ"
+      "TRANSLATE"
       )}</button>
   </div>
 </div>
 );
-}
+} 

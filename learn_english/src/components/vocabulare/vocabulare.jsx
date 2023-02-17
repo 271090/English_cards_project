@@ -1,4 +1,4 @@
-import Words from "../utils/Words";
+import words from "../utils/words";
 import Table from "../Table/Table";
 
 function Vocabulare() {
@@ -8,10 +8,10 @@ return (
       <h2>WORDLIST</h2>
       <div className="table_conteiner">
       {
-      Words.map((word, i) =>
+      words.map((word, i) =>
       <Table 
       key={i} english={word.english} transcription={word.transcription} russian={word.russian} tags={word.tags}
-        isSelected={word.isSelected} />)
+         />)
       }</div>
   </main>
 </div>

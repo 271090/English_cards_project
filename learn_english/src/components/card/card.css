@@ -44,9 +44,10 @@ font-size: 18px;
     padding: 5px;
     color: var(--base-color2);
     font-size: 20px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 7px;
     box-shadow: 0 2px 0 var(--base-color2);
+    background-color: rgb(64, 181, 64);
   
 }
 .check_btn:hover{
