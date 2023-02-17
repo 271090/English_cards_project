@@ -1,3 +1,4 @@
+
 .card__container{
     display: flex;
     justify-content: center;
@@ -34,3 +35,28 @@ color: rgb(128, 128, 128);
 font-size: 18px;
 }
 
+.check_btn{
+    font-family: var(--base-fontText);
+    align-self: center;
+    color: white;
+    width: fit-content;
+    margin: 20px 0;
+    padding: 5px;
+    color: var(--base-color2);
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 0 2px 0 var(--base-color2);
+  
+}
+.check_btn:hover{
+    border: 1px solid var(--base-color2);
+    background-color: var(--base-color);
+    color:white;
+    cursor: pointer; 
+ }
+ .check_btn:active{
+    cursor: pointer; 
+    box-shadow: 0 1px 0 white;
+    transition: all 0.1s ease 0s;
+}

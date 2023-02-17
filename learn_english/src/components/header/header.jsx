@@ -1,9 +1,10 @@
-import logo from "../header/logoforheader-removebg-preview.png";
+import Logo from "../Header/logo1.png";
+
 const Header = () => {
 return (
 <header className="header">
   <div className="header__logo">
-    <img src={logo} alt="logo" className="logo" />
+    <img src={Logo} alt="logo" className="logo" />
   </div>
   <nav className="menu">
     <ul className="menuList">
