@@ -53,7 +53,7 @@ font-size: 18px;
 .check_btn:hover{
     border: 1px solid var(--base-color2);
     background-color: var(--base-color);
-    color:white;
+    color:rgba(28, 246, 159, 0.816);
     cursor: pointer; 
  }
  .check_btn:active{

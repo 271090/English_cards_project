@@ -9,11 +9,6 @@
     width: 100%;
     
 }
-.header__item:hover{
-    text-decoration: underline;
-    color: rgb(162, 38, 245);
-}
-
 .menu{
     display: flex;
     flex-direction: row;
@@ -31,7 +26,14 @@
     padding-left: 20px;
     font-size: 25px;
     font-weight: 700;
+    color: var( --color-text);
+    text-decoration: underline;
+
 }
+.menuItem:hover {
+    color: white;
+}
+
 .header__logo{
     display: flex;
     flex-direction: row;
@@ -42,5 +44,5 @@
    
 }
 .logo{
-    height: 180px;
+    height: 280px;
 }

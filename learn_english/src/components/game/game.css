@@ -1,5 +1,5 @@
 .container__main {
-    background: #e5acf9;
+    background: var(--color-background);
       border-radius: 0px;
     }
     

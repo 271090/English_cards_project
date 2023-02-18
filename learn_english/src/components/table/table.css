@@ -57,11 +57,22 @@
     background-color: rgb(162, 38, 245);
     color: black;
   }
+  .tableEditButton:hover {
+    background-color: green;
+  }
+  .tableEditButton:focus {
+    outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+  }
   .tableDeliteButton {
     height: 25px;
     width: 80px;
     border: none;
     border-radius: 10px;
-    background-color: #CDC5BF;
+    background-color: #918c88;
     color: black;
   }
+  .tableDeliteButton:hover {
+    background-color: red;
+  }
+  
