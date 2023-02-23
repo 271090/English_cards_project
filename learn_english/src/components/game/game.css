@@ -4,10 +4,11 @@
     }
     
     .cards_conteiner {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-gap: 2%;
-        text-align: center;
+      display: flex;
+      justify-content: center;
+      max-width: 70%;
+      padding-left: 15%;
+      align-items: center;
     }
     
     .card__list {
