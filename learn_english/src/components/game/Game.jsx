@@ -6,7 +6,7 @@ import "./Game.css";
 
 export default function Game() {
   const [posts, setPosts] = useState([]);
-  const [index, setIndex] = useState(0);
+  let [index, setIndex] = useState(0);
   const [pressed, setPressed] = useState(false);
   const [counter, setCounter] = useState(0);
   const [arrId, setArrId] = useState([]);
@@ -58,7 +58,7 @@ export default function Game() {
       <main className="container__main">
       <h1>GAME</h1>
         <div className="cards_conteiner">
-        <button onClick={handlePrevClick}>PREV</button>
+        <button onClick={handlePrevClick} className="btn">PREV</button>
         <Card
           item={posts[index]}
           pressed={pressed}
@@ -66,7 +66,7 @@ export default function Game() {
           handleTransleiteBtn={handleTransleiteBtn}
           arrId={arrId}
         />
-        <button onClick={handleNextClick}>NEXT</button>
+        <button onClick={handleNextClick} className="btn">NEXT</button>
       </div>
       <div className="counter">{counter + "/" + posts.length}</div>
       </main>

@@ -28,10 +28,12 @@
     font-weight: 700;
     color: var( --color-text);
     text-decoration: underline;
+    cursor: pointer;
 
 }
 .menuItem:hover {
     color: white;
+    cursor: pointer;
 }
 
 .header__logo{
