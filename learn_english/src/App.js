@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import LayoutProject from "./components/LayoutProject/LayoutProject";
 import Game from "./components/Game/Game";
-import Vocabulare from "./components/vocabulare/vocabulare";
+import Vocabulare from "./components/Vocabulare/Vocabulare";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import "./components/Vocabulare/Vocabulare.css";
 import "./App.css";
