@@ -1,6 +1,6 @@
 import React from "react";
 import "../ErrorPage/ErrorPage.css";
-import Gif from "src/components/ErrorPage/error 404.gif";
+import Gif from "./error.gif";
 
 export default function Error() {
   return (

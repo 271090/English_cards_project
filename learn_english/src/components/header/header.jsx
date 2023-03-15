@@ -1,4 +1,6 @@
 import Logo from "../Header/logo1.png";
+import "../Header/Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 return (
@@ -8,9 +10,9 @@ return (
   </div>
   <nav className="menu">
     <ul className="menuList">
-      <li className="menuItem">Home</li>
-      <li className="menuItem">GAME</li>
-      <li className="menuItem">VOCABULARY</li>
+      <Link to="/" className="menuItem">Home</Link>
+      <Link to="/game" className="menuItem">GAME</Link>
+      <Link to="/vocabulary" className="menuItem">VOCABULARY</Link>
     </ul>
   </nav>
 </header>
