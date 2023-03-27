@@ -10,7 +10,10 @@
       padding-left: 15%;
       align-items: center;
     }
-    
+    .index {
+      text-align: center;
+      color: #28201E;
+    }
     .card__list {
       margin-top: 10px;
     }

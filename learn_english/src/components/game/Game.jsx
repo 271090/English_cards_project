@@ -10,7 +10,6 @@ export default function Game() {
   const [pressed, setPressed] = useState(false);
   const [counter, setCounter] = useState(0);
   const [arrId, setArrId] = useState([]);
-
   //Вызвали эту обработку в usEffect
   useEffect(() => {
     getWord();
@@ -57,6 +56,7 @@ export default function Game() {
     <div className="App__container">
       <main className="container__main">
       <h1>GAME</h1>
+      <h2 className="index">Изучено слов за тренировку {counter + "/" + posts.length} </h2>
         <div className="cards_conteiner">
         <button onClick={handlePrevClick} className="btn">PREV</button>
         <Card
@@ -68,7 +68,6 @@ export default function Game() {
         />
         <button onClick={handleNextClick} className="btn">NEXT</button>
       </div>
-      <div className="counter">{counter + "/" + posts.length}</div>
       </main>
     </div>
   );
