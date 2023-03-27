@@ -6,7 +6,7 @@ import Game from "./components/Game/Game";
 import Vocabulare from "./components/Vocabulare/Vocabulare";
 import "./components/Vocabulare/Vocabulare.css";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
-import "./App.css";
+import "./styles/App.css";
 
 function App() {
   return (
