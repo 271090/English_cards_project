@@ -2,9 +2,9 @@ import React, { PureComponent } from "react";
 import Card from "../Card/Card";
 import "../Slider/Slider.css";
 
-import arrowLeft from "../Slider/arrow-left.png";
-import arrowRight from "../Slider/arrow-right.png";
-import done from "../Slider/done.png";
+import arrowLeft from "src/images/arrow-left.png";
+import arrowRight from "src/images/arrow-right.png";
+import done from "src/images/done.png";
 
 export default class Slider extends PureComponent {
   constructor(props) {
@@ -47,7 +47,7 @@ export default class Slider extends PureComponent {
     let card = words[currentIndex];
 
     if (currentIndex === words.length) {
-      return <img className={styles.img__done} src={done} />;
+      return <img className={img__done} src={done} />;
     }
 
     if (card) {
