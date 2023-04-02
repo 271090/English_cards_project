@@ -6,7 +6,6 @@ const Footer = () => {
         <div className="footer__contact">
           <p className="footer_text">English Cards - helps you to learn new words easely</p>
           <p className="contact__item">
-            &copy;
             <a
               href="https://github.com/271090"
               target="_blank"
