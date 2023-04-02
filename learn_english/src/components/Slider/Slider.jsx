@@ -2,9 +2,9 @@ import React, { PureComponent } from "react";
 import Card from "../Card/Card";
 import "../Slider/Slider.css";
 
-import arrowLeft from "../Slider/arrow-left.png";
-import arrowRight from "../Slider/arrow-right.png";
-import done from "../Slider/done.png";
+import arrowLeft from "../images/arrow-left.png";
+import arrowRight from "../images/arrow-right.png";
+import done from "../images/done.png";
 
 export default class Slider extends PureComponent {
   constructor(props) {
