@@ -1,4 +1,4 @@
-import words from "../utils/words";
+import words from "../../utils/words";
 import Table from "../Table/Table";
 
 function Vocabulare() {
